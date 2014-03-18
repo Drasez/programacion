@@ -1,0 +1,29 @@
+// ELMAYOR.cpp : Defines the entry point for the console application.
+//Autor: Renato Alborta
+//Fecha: 18-03-2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	int a,b,c;
+	cout<<"ingrese a ";
+	cin>> a;
+	cout<<"ingrese b ";
+	cin>> b;
+	cout<<"ingrese c ";
+	cin>> c;
+	if (a>b)
+		if (a>c)
+			cout<<"El mayor es "<<a;
+		else
+			cout<<"El mayor es "<<c;
+	else
+		if (b>c)
+			cout<<"EL mayor es "<<b;
+	getch();
+}
