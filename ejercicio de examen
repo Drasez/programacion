@@ -1,0 +1,24 @@
+// ejercicio examen.cpp : Defines the entry point for the console application.
+//Autor:Dante Renato Alborta
+//Fecha: 25/04/2014
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#include "math.h"
+
+using namespace std;
+void main ()
+{
+   int a,b;
+   cout<<"ingrese a ";
+   cin>> a;
+   cout<<"ingrese b ";
+   cin>> b;
+   if ((a%2== 0)	&& (b%2== 0))
+    cout<<"resultado es:"<<(a+b);
+   else
+    cout<<"El rsultado es "<<(a*b);
+   getch();
+
+}
